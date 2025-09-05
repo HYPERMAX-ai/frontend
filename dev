@@ -1,0 +1,15 @@
+/* tailwindcss */
+npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
+npx tailwindcss init -p
+
+/* router */
+npm install vue-router
+
+/* vuex */
+npm install vuex@next
+
+/* echart: https://echarts.apache.org/en/index.html */
+npm install echarts
+npm install vue-echarts echarts
+
+vue-cli-service serve --host 192.168.50.9 --port 8080
