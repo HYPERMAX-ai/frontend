@@ -11,7 +11,7 @@ import InvestView from "@/views/invest/InvestView.vue";
 import LandingPageView from "@/views/landing-page/LandingPageView.vue";
 
 const routes = [
-  { path: '/', name: 'home', redirect: '/dashboard' },
+  { path: '/', name: 'home', redirect: '/invest' },
   { path: '/dashboard', name: 'dashboardView', component: DashboardView, meta: { layout: 'MainLayout' } },
   { path: '/ratesetf', name: 'stakingView', component: StakingView, meta: { layout: 'MainLayout' } },
   { path: '/maxhlp', name: 'maxhlpView', component: MaxhlpView, meta: { layout: 'MainLayout' } },
